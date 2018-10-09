@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+}
+
+.lefthand-text {
+  text-align: left;
+}
+
+#top-bar {
+  background-color: lightblue;
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+  width: 100%;
+}
+
+#home-button {
+  border: 3px solid orange;
+  background-color: white;
+  font-family: fantasy;
+  color: darkblue;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+#hamburger {
+  float: right;
+  border: 3px solid orange;
+  background-color: white;
+  font-family: fantasy;
+  color: darkblue;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#main-home {
+  background-image: url(burlpetshop.png);
+  height: 1000px;
+}
+
+#welcome-text {
+  padding-top: 20%;
+  color: darkgoldenrod
+}
+
+#pet-sales div {
+  margin: 20px;
+  width: 20%;
+  display: inline-block;
+}
