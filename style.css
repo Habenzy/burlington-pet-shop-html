@@ -2,6 +2,10 @@ body {
   margin: 0px;
 }
 
+hr {
+  margin:0px;
+}
+
 .left-justified {
   text-align: left;
 }
@@ -24,12 +28,23 @@ body {
   margin-bottom: 155px;
 }
 
-.dropout {
+.dropout ul {
+  margin-top: 0px;
+  padding: 0px;
   list-style: none;
-  background-color: lightgrey;
-  text-align: left;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
   width: fit-content;
   clear: right;
+}
+
+.dropout li {
+  background-color: lightgrey;
+  border: 2px solid darkgrey;
+  padding-bottom: 15px;
+}
+
+.dropout {
   margin-top: 0px;
   padding-top: 0px;
   position: absolute;
@@ -48,6 +63,16 @@ body {
   border: darkred 3px solid;
 }
 
+#phone {
+  float:left;
+  margin-left: 15px;
+}
+
+#address{
+  float:right;
+  margin-right: 15px;
+}
+
 #top-bar {
   background-color: lightblue;
   margin: 0px;
@@ -57,22 +82,25 @@ body {
 }
 
 #home-button {
+  padding: 20px;
   border: 3px solid orange;
   background-color: white;
   font-family: fantasy;
   color: darkblue;
-  margin-top: 25px;
-  margin-left: 60px;
+  margin-top: 5px;
+  margin-left: 10px;
   width: fit-content;
 }
 
 #hamburger {
+  padding: 20px;
   border: 3px solid orange;
   background-color: white;
   font-family: fantasy;
   color: darkblue;
-  margin-top: 25px;
+  margin-top: 5px;
   margin-right: 10px;
+  width: fit-content;
 }
 
 #dropdown-menu {
@@ -82,7 +110,6 @@ body {
 
 #dropdown-menu:hover .dropout {
   display: block;
-
 }
 
 #main-home {
