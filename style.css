@@ -2,7 +2,7 @@ body {
   margin: 0px;
 }
 
-.lefthand-text {
+.left-justified {
   text-align: left;
 }
 
@@ -21,16 +21,37 @@ body {
   color: darkblue;
   margin-top: 25px;
   margin-left: 10px;
+  width: fit-content;
 }
 
 #hamburger {
-  float: right;
   border: 3px solid orange;
   background-color: white;
   font-family: fantasy;
   color: darkblue;
   margin-top: 25px;
   margin-right: 10px;
+}
+
+#dropdown-menu {
+  float: right;
+}
+
+#dropdown-menu ul {
+  list-style: none;
+  background-color: lightgrey;
+  text-align: left;
+  width: fit-content;
+  clear: right;
+  margin: 0px;
+  padding: 0px;
+ /*height: 0px;
+  font-size: 0px;*/
+}
+/*not the right way to make a drop-down, doesn't work*/
+#dropdown-menu #hamburger a:clicked ul {
+  height: 75px;
+  font-size: 14px;
 }
 
 #main-home {
