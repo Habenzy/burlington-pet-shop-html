@@ -6,6 +6,18 @@ body {
   text-align: left;
 }
 
+.sale-item-grid div {
+  margin: 20px;
+  width: 20%;
+  display: inline-block;
+}
+
+.sales {
+  background-color: radial-gradient(#fafad2,#ff3333);
+  margin-top: 155px;
+  margin-bottom: 155px;
+}
+
 #top-bar {
   background-color: lightblue;
   margin: 0px;
@@ -20,7 +32,7 @@ body {
   font-family: fantasy;
   color: darkblue;
   margin-top: 25px;
-  margin-left: 10px;
+  margin-left: 60px;
   width: fit-content;
 }
 
@@ -34,24 +46,25 @@ body {
 }
 
 #dropdown-menu {
+  margin-right: 60px;
   float: right;
 }
 
-#dropdown-menu ul {
+.dropout {
   list-style: none;
   background-color: lightgrey;
   text-align: left;
   width: fit-content;
   clear: right;
-  margin: 0px;
-  padding: 0px;
- /*height: 0px;
-  font-size: 0px;*/
+  margin-top: 0px;
+  padding-top: 0px;
+  position: absolute;
+  display: none;
 }
 /*not the right way to make a drop-down, doesn't work*/
-#dropdown-menu #hamburger a:clicked ul {
-  height: 75px;
-  font-size: 14px;
+#dropdown-menu:hover .dropout {
+  display: block;
+
 }
 
 #main-home {
